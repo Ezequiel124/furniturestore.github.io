@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce - Base</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <header class="py-5 text-center">
+        <h1>Tienda <span class="text-primary">Muebles</span> </h1>
+    </header>
+
+    <div class="border-top py-4">
+        <div  class="navbar navbar-expand-lg container navbar-light">
+            <a class="navbar-brand d-lg-none fs-2 fw-bold text-uppercase nombre-sitio" href="index.html" >Tienda Muebles</a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navegacion" type="button">
+                <Span class="navbar-toggler-icon"></Span>
+            </button>
+            <div id="navegacion" class="collapse navbar-collapse">    
+                <nav class="navbar-nav d-flex flex-md-row justify-content-md-between container-xl text-center">
+                    <a href="index.html" class="text-decoration-none text-dark">Inicio</a>
+                    <a href="nosotros.html" class="text-decoration-none text-dark">Nosotros</a>
+                    <a href="tienda.html" class="text-decoration-none text-dark">Tienda</a>
+                    <a href="blog.html" class="text-decoration-none text-dark">Blog</a>
+                    <a href="galeria.html" class="text-decoration-none text-dark">Galeria</a>
+                    <a href="contacto.html" class="text-decoration-none text-dark">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+
+    <main class="container-xl py-5">
+        <h2 class="text-center">Guía de Colores</h2>  
+        <div class="row justify-content-md-center"> <!-- En lugar de offset es mejor centrar el contenido usando justify-content-md-center -->
+            <!-- Tambien es posible centrar utilizando mx-auto -->
+            <article class="col-md-8"><!-- al usar el offset-md-2 se salta dos columnas puesto que esta tomando 8 -->                
+                    <img src="/img/nosotros.jpg" alt="blog" class="img-fluid">
+                    <div class="d-flex justify-content-md-between py-4">
+                        <p class="fw-bold">
+                            Fecha <span class="text-primary">22 de Octubre de 2022.</span> 
+                        </p>
+                        <p class="fw-bold">
+                            Escrito por: <span class="text-primary">Tienda Muebles</span>
+                        </p>
+                    </div>
+                    <div class="pb-4">
+                        <p class="justificar-parrafo">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nesciunt assumenda officiis iure esse cupiditate, fugiat animi consectetur ipsa cumque soluta, quae nostrum, in nobis magnam. Sint, provident placeat! Ipsum.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio deserunt amet ullam recusandae iure facere aut doloremque sapiente accusamus corrupti hic provident consectetur esse vero, laborum ad laudantium aperiam itaque?
+                            <br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, autem exercitationem. Odio sapiente pariatur consequuntur animi, repellendus perspiciatis quisquam, neque expedita laborum error assumenda atque beatae vel, accusantium deserunt asperiores.
+                            <br><br>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi fugiat architecto, nostrum nemo omnis ipsa vitae quae libero molestias dignissimos dolores quo non fugit exercitationem modi et error necessitatibus a.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis totam magnam, obcaecati nemo minus quos assumenda laborum ratione ipsam nihil dolores, praesentium voluptate illum accusamus enim veritatis? Delectus, provident deleniti.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio laboriosam hic beatae blanditiis odit. Esse ipsum provident nostrum necessitatibus cum veritatis excepturi. Exercitationem molestias fugit debitis a, optio ullam tempora.
+                            <br><br>
+                        </p>
+                        <img src="/img/galeria_04.jpg" alt="blog" class="img-fluid">
+                        <p class="justificar-parrafo mt-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem numquam eum at maiores id quam esse nulla, unde nam! Nostrum sit eius ducimus inventore! Autem consequuntur distinctio repudiandae odit fugit!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, numquam. Ullam quia modi harum quas ipsa temporibus, corrupti aspernatur dolor qui, facilis laborum deserunt delectus tempore voluptates animi, est fugit?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem fuga cumque necessitatibus amet animi nemo provident architecto? Reprehenderit ducimus nam hic sit, ratione eos beatae sed voluptatibus labore, quos tempora.
+
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum porro ut ex adipisci eum mollitia nesciunt facilis, ullam inventore tempore debitis temporibus vel! Inventore vero distinctio, reiciendis natus at cum.
+                        </p>
+                    </div>                    
+            </article>            
+        </div>      
+    </main>    
+
+    <footer>
+        <div class="container-xl text-center py-3 mt-4 border-top text-dark">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Categorias</h3>                
+                    <nav class="d-flex flex-column">
+                        <a href="#" class="text-center text-dark text-decoration-none">Cocina</a>
+                        <a href="#" class="text-center text-dark text-decoration-none">Oficina</a>
+                        <a href="#" class="text-center text-dark text-decoration-none">Jardin</a>
+                        <a href="#" class="text-center text-dark text-decoration-none">Cochera</a>
+                        <a href="#" class="text-center text-dark text-decoration-none">Dormitorios</a>
+                    </nav>
+                </div>
+                <div class="col-md-4">
+                    <h3>Sobre nosotros</h3>                
+                    <nav class="d-flex flex-column">
+                        <a href="#" class="text-center text-dark text-decoration-none">Nuestra historia</a>
+                        <a href="#" class="text-center text-dark text-decoration-none">Mision, Vision y Valores</a>
+                        <a href="#" class="text-center text-dark text-decoration-none">Carreras</a>
+                        <a href="#" class="text-center text-dark text-decoration-none">Politica de Privacidad</a>
+                        <a href="#" class="text-center text-dark text-decoration-none">Terminos de Servicio</a>
+                    </nav>
+                </div>
+                <div class="col-md-4">
+                    <h3>Soporte</h3>                
+                    <nav class="d-flex flex-column">
+                        <a href="#" class="text-center text-dark text-decoration-none">Preguntas preguntas</a>
+                        <a href="#" class="text-center text-dark text-decoration-none">Ayuda en linea</a>
+                        <a href="#" class="text-center text-dark text-decoration-none">Confianza y Seguridad</a>                       
+                    </nav>
+                </div>
+                
+            </div>
+            <p class="my-5">Todos los derechos reservados. TiendaDeMuebles</p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
