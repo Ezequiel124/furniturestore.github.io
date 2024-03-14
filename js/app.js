@@ -9,7 +9,7 @@ if(modalImagen){
 
         const imagen = document.createElement("IMG");
 
-        imagen.src = `img/${rutaImagen}.jpg`;
+        imagen.src = `./img/${rutaImagen}.jpg`;
         imagen.classList.add('img-fluid');
         imagen.alt = "Imagen Galeria";
 
